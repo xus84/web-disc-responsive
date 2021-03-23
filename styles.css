@@ -1,0 +1,49 @@
+header {
+    background: lightgrey;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.avanced-menu {
+    display: flex;
+    height: 100px;
+    width: 25%;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 25%;
+}
+
+.empty {
+    display: flex;
+    height: 100px;
+    width: 15%;
+}
+
+.nav-links{
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+
+.rooms{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    text-decoration: none;
+    } 
+    
+.gallery {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+
