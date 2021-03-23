@@ -3,6 +3,7 @@ header {
     display: flex;
     height: 100px;
     width: 100%;
+    border: solid 1px gray;
 }
 
 .avanced-menu {
@@ -29,11 +30,14 @@ header {
     width: 200px;
 }
 
+.nav-links a {
+    text-decoration: none;
+}
+
 .rooms{
     display: flex;
     width: 100px;
     height: 100px;
-    margin-right: auto;
     text-decoration: none;
     } 
     
@@ -41,9 +45,22 @@ header {
     display: flex;
     width: 100px;
     height: 100px;
-    margin-right: auto;
     text-decoration: none;
 }
+
+a:hover {
+    color: grey;
+    
+}
+
+img  {
+    display: flex;
+    height: 100px;
+    width: 100%; 
+}
+
+
+
 
 
 
