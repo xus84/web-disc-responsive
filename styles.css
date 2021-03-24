@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  h1  {
@@ -22,6 +23,8 @@ p {
 span {
     margin-left: 1px;
 }
+
+/* header */
 
 header {
     background: lightgrey;
@@ -91,16 +94,19 @@ img  {
     width: 50%;
 }
 
+/* main part */
+
 main {
     display: flex;
     width: 100%;
     height: 500px;
+    background: rgba(194, 186, 186, 0.993);
 }
 
 .container_section {
     display: flex;
     height: 500px;
-    width: 200px;
+    width: 220px;
 }
 
 .row_section {
@@ -117,6 +123,12 @@ main {
     border: 1px solid gray;
 }
 
+.title_central {
+    display: flex;
+    justify-content: center;
+    background: rgba(153, 136, 136, 0.993);
+    height: 45px;
+}
 
 aside {
     display: flex;
@@ -137,6 +149,12 @@ aside {
     background: whitesmoke;
 }
 
+.fire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .aside_subtit {
     display: flex;
     align-items: center;
@@ -148,13 +166,17 @@ aside {
 }
 
 .central_content img {
-    width: 60%;
+    width: 59%;
     height: 200px;
 }
 
 .enricco > img {
     display: flex;
     margin: 20px 0px 10px 120px;
+    
+}
+.enricco {
+    background: rgba(61, 59, 59, 0.993);
 }
 
 .articles {
@@ -162,12 +184,32 @@ aside {
     margin-right: 5px;
 }
 
+.input_email {
+    margin: 5px;
+    margin-left: 15px;
+    border: 1px solid gray;
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+.label1 , .label2 {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    background: rgba(151, 141, 141, 0.993);
+    border:1px solid rgba(61, 59, 59, 0.993);
+    border-radius: 5px;
+}
 
 
 .footer {
     display: flex;
     align-items: baseline;
-    justify-content: flex-end;
+    justify-content: center;
     height: 120px;
     width: 100%;
     border: 1px solid gray;
