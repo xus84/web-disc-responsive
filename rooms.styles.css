@@ -12,10 +12,12 @@ header {
     border: solid 1px gray;
 }
 
-.avanced-menu {
+.advanced-menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    width: 15%;
+    width: 25%;
 }
 
 .logo {
@@ -27,43 +29,40 @@ header {
 .empty {
     display: flex;
     height: 50px;
-    width: 15%;
+    width: 40%;
 }
 
 .nav-links{
     display: flex;
     height: 50px;
-    width: 200px;
+    width: 300px;
+    border: rgba(194, 186, 186, 0.993);
 }
 
 .nav-links a {
     text-decoration: none;
-}
-
-.rooms{
-    display: flex;
-    width: 100px;
-    height: 50px;
-    text-decoration: none;
-    } 
     
-.gallery {
-    display: flex;
-    width: 100px;
-    height: 50px;
-    text-decoration: none;
 }
 
-.sign-in {
+.nav-links span  {
     display: flex;
+    justify-content: space-between;
+    margin-right: auto;
     width: 100px;
     height: 50px;
     text-decoration: none;
-}
+} 
+
 
 a:hover {
     color: grey;
     
+}
+
+img  {
+    display: flex;
+    height: 50px;
+    width: 50%;
 }
 
 a  {
